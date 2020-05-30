@@ -63,9 +63,33 @@ body .container .box #print-color #print-rgb {
   border-radius: 0.3rem;
 }
 
-@media (max-width: 1044px) {
+@media (min-width: 320px) {
+  body .container .box {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 360px) {
+  body .container .box {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 768px) {
+  body .container .box {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1024px) {
   body .container .box {
     width: 30vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  body .container .box {
+    width: 20vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
